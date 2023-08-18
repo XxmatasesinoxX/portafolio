@@ -12,10 +12,10 @@ html{
 body{
     background-color: #f6fafc;
 }
-/*INICIO*/
+/*Estilos INICIO*/
 .inicio{
     background: linear-gradient(to right, #000c67,#007be5);
-    clip-path: polygon(0 0, 100% 0, 100% 47%, 42% 88%, 0 51%);
+    clip-path: polygon(0 0, 100% 0, 100% 52%, 48% 100%, 0 51%);
     height: 90vh;
     padding: 0 20px;
 
@@ -36,4 +36,96 @@ body{
     align-items: center;
     color: #00deef;
     font-size: 25px;
+}
+.inicio .logo i{
+    display: inline-block;
+    margin-right: 20px;
+}
+#inicio header nav a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+}
+#inicio header nav a:hover{
+    border-bottom: 2px solid #ff5b00;
+}
+.inicio .redes a{
+   text-decoration: none;
+   color: #fff;
+   display: inline-block;
+   margin: 0 10px; 
+}
+.inicio .redes a:hover{
+    color: #ff5b00;
+}
+.inicio .fila{
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.inicio .fila .col{
+    width: 50%;
+}
+.inicio .fila .col h2{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.inicio .fila .col p{
+    margin-bottom: 20px;
+}
+.inicio .fila .col .contenedor-img{
+    max-width: 400px;
+    margin: auto;
+}
+.inicio .fila .col .contenedor-img img{
+    width: 100%;
+}
+.inicio .fila .col button{
+    background: none;
+    width: fit-content;
+    padding: 2px 40px;
+    border: 2px solid #ff5b00;
+    color: #fff;
+    background: linear-gradient(to right, #ff5b00, #ff9900);
+    transition: .5s;
+    cursor: pointer;
+}
+.inicio .fila .col button:hover{
+    transform: scale(1.1);
+}
+#icono-nav{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+    display: none;
+}
+#icono-nav{
+    background-color: #3e3e3e;
+}
+.sombra{
+    filter: drop-shadow(0cm 30px 20px #9bd2f4)
+}
+/*Estilos SERVICIOS*/
+.servicios{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    position: relative;
+    top: -170px;
+}
+.servicios .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.servicios .fila .col{
+    text-align: center;
+    width: 30%;
 }
